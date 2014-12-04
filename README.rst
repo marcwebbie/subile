@@ -30,11 +30,14 @@ Subile download subtitles with the same name of the video in the same directory 
     # download subtitles for your video in default language "English"
     subile game.of.thrones.s04e10.hdtv.x264-killers.mp4
 
-    # download subtitles for your video in French
+    # download subtitles for your video in French using `-l fre`
     subile -l fre game.of.thrones.s04e10.hdtv.x264-killers.mp4
 
-    # download subtitles for your video in Portuguese
+    # download subtitles for your video in Portuguese using `-l por`
     subile -l por game.of.thrones.s04e10.hdtv.x264-killers.mp4
+
+    # get into interactive mode using `-i`
+    subile -i game.of.thrones.s04e10.hdtv.x264-killers.mp4
 
 
 *******
