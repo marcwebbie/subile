@@ -7,7 +7,7 @@ from collections import namedtuple
 import guessit
 from pyquery import PyQuery
 
-from utils import session
+from .utils import session
 
 
 Subtitle = namedtuple("Subtitle", "id title format")
