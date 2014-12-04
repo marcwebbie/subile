@@ -13,25 +13,25 @@ Subile: Download subtitles from the terminal
    :alt: Supported Python versions
 
 
-`Subile <http://github.com/marcwebbie/subile>`_ is a python script to download subtitles for videos. Subile supports multiple languages download
+`Subile <http://github.com/marcwebbie/subile>`_ is a python script to download subtitles for videos. Subile supports multiple subtitles languages and provides an interacive interface.
 
-************
-Installing
-************
 
+*********
 Install
-=========
+*********
 
 .. code-block:: bash
 
     pip install subile
 
 
-**********
+************
 Quickstart
-**********
+************
 
-Subile download subtitles with the same name of the video in the same directory with a subtitle extension. For example for a video called: hello.world.s01e04.mp4 a subtitle will be saved as `hello.world.s01e04.srt`
+Subile download subtitles with the same name of the video in the same directory with a subtitle extension.
+
+For example for a video called: **~/Videos/hello.world.s01e04.mp4**, the subtitles will be saved into **~/Videos/hello.world.s01e04.srt**
 
 .. code-block:: bash
 
@@ -48,9 +48,9 @@ Subile download subtitles with the same name of the video in the same directory 
     subile -i game.of.thrones.s04e10.hdtv.x264-killers.mp4
 
 
-*******
+*********
 License
-*******
+*********
 
 This is free and unencumbered software released into the public domain.
 
