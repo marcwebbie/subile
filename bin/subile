@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import runpy
+
+
+runpy.run_module("subile", run_name="__main__")

@@ -1,0 +1,12 @@
+argparse==1.2.2
+babelfish==0.5.3
+cssselect==0.9.1
+guessit==0.9.4
+lxml==3.4.1
+pbr==0.10.0
+pyquery==1.2.9
+python-dateutil==2.3
+requests==2.5.0
+six==1.8.0
+stevedore==1.1.0
+wsgiref==0.1.2
