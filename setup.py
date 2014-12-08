@@ -10,7 +10,7 @@ with open("README.rst") as f:
 setup(
     name='subile',
     version=__version__,
-    license='MIT',
+    license='Public Domain',
     description='Download subtitles in multiple languages from the terminal',
     long_description=long_description,
     keywords="subtitles video caption media watch show film documentary",
@@ -31,5 +31,6 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Topic :: Multimedia :: Video',
         'Topic :: Internet',
+        'License :: Public Domain'
     ],
 )
