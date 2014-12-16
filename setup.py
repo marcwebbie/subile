@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 with open("README.rst") as f:
     long_description = f.read() + '\n'
