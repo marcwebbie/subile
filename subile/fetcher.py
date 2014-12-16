@@ -2,7 +2,7 @@
 import os
 
 import guessit
-import opensubtitles
+from . import opensubtitles
 
 
 def get_video_info(video_path):

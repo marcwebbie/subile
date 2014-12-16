@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 import argparse
 import os
 
-from .subtitles import get_subtitles
+from .fetcher import get_subtitles
 
 
 def get_args():
