@@ -31,3 +31,30 @@ def get_zip_content(download_url):
         return zfile.read(sub_name)
     else:
         return None
+
+
+class lazyproperty_python3:
+    def __init__(self, func):
+        self.func = func
+
+    def __get__(self, attribute, cls):
+        if attribute is None:
+            return self
+        else:
+            value = self.func(attribute)
+            setattr(attribute, self.func.__name__, value)
+            return value
+
+
+def lazyproperty(func):
+    name = '_lazy_' + func.__name__
+
+    @property
+    def lazy(self):
+        if hasattr(self, name):
+            return getattr(self, name)
+        else:
+            value = func(self)
+            setattr(self, name, value)
+            return value
+    return lazy

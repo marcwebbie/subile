@@ -10,7 +10,8 @@ class SubileTests(unittest.TestCase):
 
     def test_get_subtitles(self):
         subtitles_list = subile.get_subtitles(
-            "The.Walking.Dead.S04E10.Inmates.BDRip.x264-DEMAND.mkv",
+            # "The.Walking.Dead.S04E10.Inmates.BDRip.x264-DEMAND.mkv",
+            "Dawn.of.the.Planet.of.the.Apes.2014.720p.BluRay.x264.YIFY.mp4",
             "fre"
         )
         for subtitles in subtitles_list:

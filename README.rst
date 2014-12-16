@@ -36,16 +36,16 @@ For example for a video called: **~/Videos/hello.world.s01e04.mp4**, the subtitl
 .. code-block:: bash
 
     # download subtitles for your video in default language "English"
-    subile game.of.thrones.s04e10.hdtv.x264-killers.mp4
+    subile hello.world.s04e10.hdtv.x264-killers.mp4
 
     # download subtitles for your video in French using `-l fre`
-    subile -l fre game.of.thrones.s04e10.hdtv.x264-killers.mp4
+    subile -l fre hello.world.s04e10.hdtv.x264-killers.mp4
 
     # download subtitles for your video in Portuguese using `-l por`
-    subile -l por game.of.thrones.s04e10.hdtv.x264-killers.mp4
+    subile -l por hello.world.s04e10.hdtv.x264-killers.mp4
 
     # get into interactive mode using `-i`
-    subile -i game.of.thrones.s04e10.hdtv.x264-killers.mp4
+    subile -i hello.world.s04e10.hdtv.x264-killers.mp4
 
 
 *********

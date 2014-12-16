@@ -1,2 +1,2 @@
-from .subtitles import get_subtitles
-from .subtitles import Subtitle
+from .fetcher import get_subtitles
+from .subtitle import Subtitle
