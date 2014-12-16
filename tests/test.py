@@ -3,19 +3,20 @@ import sys
 import unittest
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-import subile
+import subile.fetcher
+import subile.utils
+import subile.subtitle
 
 
 class SubileTests(unittest.TestCase):
 
     def test_get_subtitles(self):
-        subtitles_list = subile.get_subtitles(
-            # "The.Walking.Dead.S04E10.Inmates.BDRip.x264-DEMAND.mkv",
-            "Dawn.of.the.Planet.of.the.Apes.2014.720p.BluRay.x264.YIFY.mp4",
+        subtitles_list = subile.fetcher.get_subtitles(
+            "The.Walking.Dead.S04E10.Inmates.BDRip.x264-DEMAND.mkv",
             "fre"
         )
         for subtitles in subtitles_list:
-            self.assertIsInstance(subtitles, subile.Subtitle)
+            self.assertIsInstance(subtitles, subile.subtitle.Subtitle)
 
     def test_get_zip_content(self):
         subtitle_content = subile.utils.get_zip_content(
