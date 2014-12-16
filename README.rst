@@ -5,6 +5,9 @@ Subile: Download subtitles from the terminal
 .. image:: https://travis-ci.org/marcwebbie/subile.svg
    :target: https://travis-ci.org/marcwebbie/subile
    :alt: Build status
+.. image:: https://coveralls.io/repos/marcwebbie/subile/badge.png
+   :target: https://coveralls.io/r/marcwebbie/subile
+   :alt: Test Coverage
 .. image:: https://pypip.in/version/subile/badge.svg?text=version
    :target: https://pypi.python.org/pypi/subile/
    :alt: Version
@@ -13,7 +16,7 @@ Subile: Download subtitles from the terminal
    :alt: Supported Python versions
 
 
-`Subile <http://github.com/marcwebbie/subile>`_ is a python script to download subtitles for videos. Subile supports multiple subtitles languages and provides an interacive interface.
+`Subile <http://github.com/marcwebbie/subile>`_ is a command to download subtitles for videos downloaded videos. Subile supports multiple subtitles languages and provides an interactive interface for choosing the best subtitle.
 
 
 *******
